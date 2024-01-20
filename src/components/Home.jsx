@@ -3,9 +3,9 @@ import Navbar from './Navbar'
 import './style.css'
 import Container from './Container'
 import Section from './Section'
-import Testimonials from './Testimonials'
-import FAQ from './FAQ'
+import Testimonial from './Testimonial'
 import Footer from './Footer'
+import Whatsapp from './Whatsapp'
 
 const Home = () => {
   return (
@@ -13,8 +13,8 @@ const Home = () => {
         <Navbar/>
         <Container/>
         <Section/>
-        <Testimonials/>
-        <FAQ/>
+        <Whatsapp/>
+        <Testimonial/>
         <Footer/>
     </div>
   )

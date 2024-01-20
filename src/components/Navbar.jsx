@@ -20,18 +20,19 @@ const Navbar = () => {
     <div className='navbar'>
         <div onClick={handleClick} className={`${showNav ? "hamburger1":"hamburger"}`}></div>
         <div className='logo'>
-            <h1>TXN</h1>
+           {/*<h1>TXN</h1> */}
+           <img src="logo1.jpg" alt="logo" />
             <nav className='menu'>
                 <ul className='inner-nav'>
-                    <li><a href="#hub">Hub</a></li>
-                    <li><a href="#mint">Mint</a></li>
-                    <li><a href="#features">Features</a></li>
+                    <li><a href="#hub">Home</a></li>
+                    <li><a href="#mint">Newsletter</a></li>
+                    <li><a href="#features">Community</a></li>
                     <li><a href="#socials">Socials</a></li>
                 </ul>
             </nav>
         </div>
         <div className='button'>
-            <a href="/">Contact Us</a>
+            <a href="/">Enroll Now</a>
         </div>
     </div>
   )

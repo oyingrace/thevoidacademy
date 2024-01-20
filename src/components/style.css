@@ -3,6 +3,7 @@
     text-decoration: none;
     color: #323232;
     font-size: 15px;
+   
 }
 
 .home{
@@ -41,6 +42,10 @@
     align-items: center;
 }
 
+.logo img{
+    width: 100px;
+}
+
 .logo h1{
     font-size: 28px;
     background: -webkit-linear-gradient(#FF0099, #E650FF, #2DCFDA);
@@ -53,9 +58,10 @@
     border-radius: 3px;
     color: white;
     white-space: nowrap;
-    background: #f857a6; /* fallback for older browsers*/
-    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
-    background: linear-gradient(to right, #ff5858, #f857a6);
+    background: #028f3c; /* fallback for older browsers*/
+   /* background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
+    background: linear-gradient(to right, #ff5858, #f857a6); */
+    font-weight: 500;
 }
 
 .hamburger{
@@ -176,6 +182,7 @@
     font-size: 48px;
     font-weight: 500;
     margin-bottom: 20px;
+    color:linear-gradient(#FF0099, #E650FF, #2DCFDA);
 }
 
 .text p {
@@ -282,6 +289,16 @@
     margin-top: 160px;
     margin-bottom: 100px;
 }
+
+.section > h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.section > p {
+    font-size: 20px;
+    text-align: center;
+}
 .inner-section{
     display: flex;
     align-items: center;
@@ -360,9 +377,7 @@
     .section-image {
         position: relative;
     }
-    .inner-section .section-image img{
-        display: none;
-    }
+ 
     .section-text {
         margin-top: 40px;
     }
@@ -382,7 +397,8 @@
 }
 
 .cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
     align-items: center;
     justify-content: space-between;
     gap: 40px;
@@ -411,6 +427,9 @@
     max-width: 50px;
 }
 
+
+
+
 @media (max-width:765px){
     .cards{
         display: grid;
@@ -424,7 +443,7 @@
     }
 }
 
-/* Testimonials */
+/* Testimonial
 
 .testimonials {
     display: flex;
@@ -447,9 +466,9 @@
     margin-bottom: 30px;
 }
 
-.testimonial-text h1{
+.testimonial-text h2{
     color: white;
-    font-size: 42px;
+    font-size: 35px;
     font-weight: 400;
     margin-bottom: 20px;
 }
@@ -464,7 +483,7 @@
     color: white;
     font-size: 15px;
     width: 80%;
-    background: #f857a6; /* fallback for older browsers*/
+    background: #f857a6; 
     background: -webkit-linear-gradient(to right, #ff5858, #f857a6);
     background: linear-gradient(to right, #ff5858, #f857a6);
     padding: 10px;
@@ -544,7 +563,13 @@
     .testimonials{
         padding: 20px;
     }
-}
+}               
+*/
+
+
+
+
+
 
 /* FAQ */
 

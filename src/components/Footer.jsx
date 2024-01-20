@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -6,11 +8,11 @@ const Footer = () => {
         <div className='bulb'>
             <div className='pic'>
                 <img src="bulb.png" alt="" />
-                <h1>Knowledge Grow Your Influence</h1>
+                <h1>DREAM BIG <br/>EARN BIG</h1>
             </div>
             <div className='footer-text'>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis quaerat in error, pariatur optio dolorum corporis dolore maiores suscipit. Quam.</p>
-                <a href="/">Get Started</a>
+                <p>Gain the skills and knowledge you need to succeed in the job market. Network with other job seekers and receive personalized feedback. Enroll today and start your journey to career success!</p>
+                <a href="/">Enroll Now</a>
             </div>
         </div>
         <div className='newsletter'>
@@ -20,7 +22,7 @@ const Footer = () => {
                 <span className='curve'><img src="curve.png" alt="" /></span>
             </div>
             <div className='news-right'>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo exercitationem quis consequuntur voluptas nihil.</p>
+                <p></p>
                 <form action="">
                     <input type="email" name='email' />
                     <button>Subscribe</button>
@@ -28,17 +30,18 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer-menu'>
-            <h1>TXN</h1>
+        <h1 className='font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>
+  THEVOIDACADEMY
+</h1>
             <ul className='footer-inner-nav'>
-                <li><a href="#hub">Hub</a></li>
-                <li><a href="#mint">Mint</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#socials">Socials</a></li>
+                <li><a href="#hub"><FaXTwitter /></a></li>
+                <li><a href="#mint"><FaTelegramPlane /></a></li>
+                <li><a href="#features"><FaWhatsapp /></a></li>
             </ul>
         </div>
         <hr />
         <div>
-            <p className='text-center'>&#169; Copyright 2023-2028 | All Right Reserved |</p>
+            <p className='text-center'>&#169; Copyright 2024 | All Right Reserved </p>
         </div>
     </div>
   )
